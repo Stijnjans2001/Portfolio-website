@@ -224,7 +224,6 @@
         width: max-content;
         background-color: var(--kleur2);
         margin-top: 100%;
-        padding-top: 100%;
     }
     
     @media (max-width: 370px) {
