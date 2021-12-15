@@ -1,0 +1,229 @@
+    @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.1/font/bootstrap-icons.css");
+    @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+    * {
+        box-sizing: border-box;
+        margin: 0px;
+    }
+    
+     :root {
+        --kleur0: white;
+        --kleur1: black;
+        --kleur2: #EAE6E5;
+        --kleur3: #F2F230;
+        --kleur4: #C2F261;
+        --kleur5: #91F291;
+        --kleur6: #61F2C2;
+        --kleur7: #30F2F2;
+        --kleur8: #1EC0BB;
+        --kleur9: #1082c5;
+    }
+    
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 12px;
+        background-color: var(--kleur2);
+        height: 100%;
+    }
+    
+    .nav-pills .nav-link.active {
+        color: var(--kleur1);
+        background-color: var(--kleur2);
+        font-weight: bold;
+    }
+    
+    .nav-pills .nav-link:link,
+    .nav-pills .nav-link:visited {
+        text-decoration: none;
+        color: var(--kleur1);
+    }
+    
+    .GFG {
+        color: var(--kleur1);
+        font-size: 23px;
+        font-weight: bold;
+        -webkit-text-stroke-width: 0.5px;
+        -webkit-text-stroke-color: var(--kleur9);
+    }
+    
+    .nav-pills .nav-link:hover {
+        filter: contrast(80%);
+    }
+    
+    .nav-pills .nav-link.home {
+        background-color: var(--kleur3);
+    }
+    
+    .nav-pills .nav-link.cv {
+        background-color: var(--kleur4);
+    }
+    
+    .nav-pills .nav-link.ervaringen {
+        background-color: var(--kleur5);
+    }
+    
+    .nav-pills .nav-link.interesses {
+        background-color: var(--kleur6);
+    }
+    
+    .nav-pills .nav-link.contact {
+        background-color: var(--kleur7);
+    }
+    
+    .nav-pills .nav-link.extra {
+        background-color: var(--kleur8);
+    }
+    
+    header {
+        text-align: center;
+        padding-top: 1px;
+    }
+    
+    .bg-dark.geel {
+        background-color: var(--kleur3)!important;
+    }
+    
+    .btn.btn-primary.black {
+        background-color: var(--kleur1);
+        border-color: var(--kleur1);
+        color: var(--kleur2);
+    }
+    
+    .btn.btn-primary.geel {
+        background-color: var(--kleur3);
+        border-color: var(--kleur2);
+        color: var(--kleur1);
+    }
+    
+    .btn.btn-light.green {
+        background-color: var(--kleur6);
+        border-color: var(--kleur2);
+        color: var(--kleur1);
+    }
+    
+    .btn.btn-light.light-green {
+        background-color: var(--kleur4);
+        border-color: var(--kleur2);
+        color: var(--kleur1);
+    }
+    
+    .btn.btn-primary.kleur7 {
+        background-color: var(--kleur7);
+        color: var(--kleur1);
+    }
+    
+    .carousel-inner>.item>img {
+        width: 200px;
+        height: 150px;
+        margin: auto;
+    }
+    
+    .carousel.klein {
+        width: 370px;
+        height: 277.5px;
+        margin: auto;
+    }
+    
+    .carousel.klein.carousel-dark>.carousel-inner>.carousel-item>.carousel-caption {
+        color: var(--kleur1);
+        font-size: 15px;
+        -webkit-text-stroke-width: 0.25px;
+        -webkit-text-stroke-color: var(--kleur6);
+    }
+    
+    .carousel.carousel-dark>.carousel-inner>.carousel-item>.carousel-caption.kleur1 {
+        color: var(--kleur1);
+        -webkit-text-stroke-width: 0.25px;
+        -webkit-text-stroke-color: var(--kleur9);
+    }
+    
+    .carousel {
+        width: 250px;
+        height: 250px;
+        margin: auto;
+        text-decoration-color: var(--kleur1);
+    }
+    
+    .carousel.carousel-dark>.carousel-inner>.carousel-item>.carousel-caption {
+        color: var(--kleur5);
+        -webkit-text-stroke-width: 0.25px;
+        -webkit-text-stroke-color: var(--kleur1);
+    }
+    
+    .table-responsive ul {
+        list-style-type: none;
+    }
+    
+    .overflow-auto {
+        max-height: 200px;
+        width: auto;
+        margin: auto;
+        overflow: auto;
+        display: inline-block;
+    }
+    
+    article p {
+        font-family: 'Pacifico', cursive;
+        font-size: 20px;
+    }
+    
+    section {
+        text-align: center;
+    }
+    
+    article {
+        text-align: center;
+        padding-top: 10px;
+    }
+    
+    .bg-image {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url("../Files/Background_Banner.jpg");
+        background-color: var(--kleur4);
+        height: 45%;
+        overflow-y: hidden;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        color: var(--kleur1);
+    }
+    
+    .container.light-green {
+        background: var(--kleur4);
+    }
+    
+    .bg-success-kleur4 {
+        background-color: var(--kleur4);
+        color: var(--kleur1);
+    }
+    
+    .accordion-button,
+    .accordion-button:not(.collapsed) {
+        background-color: var(--kleur4);
+        color: var(--kleur1);
+    }
+    
+    .accordion-button:not(.collapsed) {
+        font-weight: bold;
+    }
+    
+    footer {
+        width: 100%;
+        background-color: var(--kleur1);
+        color: var(--kleur2);
+        padding: 10px;
+        margin-top: 5px;
+        font-size: 10px;
+        text-align: right;
+        position: sticky;
+        bottom: 0;
+        clear: both;
+    }
+    
+    @media (max-width: 370px) {
+        .table.table-wrapper {
+            max-height: 200px;
+            overflow: auto;
+            display: inline-block;
+            width: 100%;
+        }
+    }
