@@ -211,12 +211,13 @@
         background-color: var(--kleur1);
         color: var(--kleur2);
         padding: 10px;
-        margin-top: 5px;
+        margin-top: auto;
         font-size: 10px;
         text-align: right;
         position: sticky;
         bottom: 0;
         clear: both;
+        display: block;
     }
     
     @media (max-width: 370px) {
