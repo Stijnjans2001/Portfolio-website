@@ -11,74 +11,82 @@
     <link rel="stylesheet" href="CSS/style.css">
 </head>
 
-<body>
-    <nav class="navbar sticky-top navbar-dark bg-black">
-        <ul class="container-fluid nav nav-pills nav-fill nav-justified">
-            <li class="nav-item m-1 p-1">
-                <a class="navbar-brand" href="index.html">
-                    <img src="Files/Favicon.png" alt="Favicon" width="15" aria-current="page" class="d-inline-block align-text-top"><text class="GFG">tijn</text>
-                </a>
-            </li>
-            <li class="nav-item m-1 p-1">
-                <a class="nav-link home" aria-current="page" href="index.html">Home</a>
-            </li>
-            <li class="nav-item m-1 p-1">
-                <a class="nav-link cv" href="cv.html">CV</a>
-            </li>
-            <li class="nav-item m-1 p-1">
-                <a class="nav-link ervaringen active" href="ervaringen.html">Ervaring</a>
-            </li>
-            <li class="nav-item m-1 p-1">
-                <a class="nav-link interesses" href="interesses.html">Hobby's</a>
-            </li>
-            <li class="nav-item m-1 p-1">
-                <a class="nav-link contact" href="contact.html">Contact</a>
-            </li>
-            <li class="nav-item m-1 p-1">
-                <a class="nav-link extra disabled" href="extra.html" tabindex="-1" aria-disabled="true">Extra</a>
-            </li>
-        </ul>
-    </nav>
+<body class="d-flex flex-column h-100">
+
     <header>
-        <h1>Ervaring</h1>
-        <p>Op deze pagina vindt u meer informatie over mijn werkervaring en feeling met het werkveld.</p>
+        <nav class="navbar sticky-top navbar-dark bg-black">
+            <ul class="container-fluid nav nav-pills nav-fill nav-justified">
+                <li class="nav-item m-1 p-1">
+                    <a class="navbar-brand" href="index.html">
+                        <img src="Files/Favicon.png" alt="Favicon" width="15" aria-current="page" class="d-inline-block align-text-top"><text class="GFG">tijn</text>
+                    </a>
+                </li>
+                <li class="nav-item m-1 p-1">
+                    <a class="nav-link home" aria-current="page" href="index.html">Home</a>
+                </li>
+                <li class="nav-item m-1 p-1">
+                    <a class="nav-link cv" href="cv.html">CV</a>
+                </li>
+                <li class="nav-item m-1 p-1">
+                    <a class="nav-link ervaringen active" href="ervaringen.html">Ervaring</a>
+                </li>
+                <li class="nav-item m-1 p-1">
+                    <a class="nav-link interesses" href="interesses.html">Hobby's</a>
+                </li>
+                <li class="nav-item m-1 p-1">
+                    <a class="nav-link contact" href="contact.html">Contact</a>
+                </li>
+                <li class="nav-item m-1 p-1">
+                    <a class="nav-link extra disabled" href="extra.html" tabindex="-1" aria-disabled="true">Extra</a>
+                </li>
+            </ul>
+        </nav>
     </header>
-    <section>
-        <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
-            <div class="carousel-indicators">
-                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
-            </div>
-            <div class="carousel-inner">
-                <div class="carousel-item active" data-bs-interval="10000">
-                    <img src="Files/Studentenraad_logo.png" class="d-block w-100 opacity-50" onclick="location.href = 'cv.html';" style="cursor: pointer;" alt="Logo studentenraad Thomas More" title="Logo studentenraad Thomas More">
-                    <div class="carousel-caption kleur1 d-none d-sm-block">
-                        <h5>Studentenraad</h5>
-                        <p>In mijn reeds doorlopen schoolcarrière heb ik steeds mijzelf steeds enthousiast ingezet om deel uit te maken van leerlingenraad/studentenraad.</p>
+    <main class="flex-shrink-0">
+        <div class="container">
+            <section>
+                <h1>Ervaring</h1>
+                <p>Op deze pagina vindt u meer informatie over mijn werkervaring en feeling met het werkveld.</p>
+            </section>
+            <section>
+                <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
                     </div>
-                </div>
-                <div class="carousel-item" data-bs-interval="10000">
-                    <img src="Files/Delhaize_logo.jpg" class="d-block w-100 opacity-50" onclick="location.href = 'cv.html';" style="cursor: pointer;" alt="Logo Delhaize" title="Logo Delhaize">
-                    <div class="carousel-caption kleur1 d-none d-sm-block">
-                        <h5>Delhaize</h5>
-                        <p>Ik ben begonnen als student en sinds <i><script src="Javascript/myscript1.js"></script></i> jaar werk ik als studentwerknemer bij Delhaize.
-                            <br>In de loop der jaren heb ik mezelf goed weten te ontwikkelen (op)gemerkt dat het mijn kwaliteit is om orde te bewaren, zowel in de werkplek als in het hoofd.
-                        </p>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active" data-bs-interval="10000">
+                            <img src="Files/Studentenraad_logo.png" class="d-block w-100 opacity-50" onclick="location.href = 'cv.html';" style="cursor: pointer;" alt="Logo studentenraad Thomas More" title="Logo studentenraad Thomas More">
+                            <div class="carousel-caption kleur1 d-none d-sm-block">
+                                <h5>Studentenraad</h5>
+                                <p>In mijn reeds doorlopen schoolcarrière heb ik steeds mijzelf steeds enthousiast ingezet om deel uit te maken van leerlingenraad/studentenraad.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item" data-bs-interval="10000">
+                            <img src="Files/Delhaize_logo.jpg" class="d-block w-100 opacity-50" onclick="location.href = 'cv.html';" style="cursor: pointer;" alt="Logo Delhaize" title="Logo Delhaize">
+                            <div class="carousel-caption kleur1 d-none d-sm-block">
+                                <h5>Delhaize</h5>
+                                <p>Ik ben begonnen als student en sinds <i><script src="Javascript/myscript1.js"></script></i> jaar werk ik als studentwerknemer bij Delhaize.
+                                    <br>In de loop der jaren heb ik mezelf goed weten te ontwikkelen (op)gemerkt dat het mijn kwaliteit is om orde te bewaren, zowel in de werkplek als in het hoofd.
+                                </p>
+                            </div>
+                        </div>
                     </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
                 </div>
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
-            </button>
+            </section>
         </div>
-    </section>
-    <footer class="mt-5">
-        <div class="d-flex flex-wrap justify-content-between align-items-center">
+        <div class="spacer"></div>
+    </main>
+    <footer class="footer mt-auto pt-auto py-3 bg-black">
+        <div class="container d-flex flex-wrap justify-content-between align-items-center">
             <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
                 <li class="ms-3">
                     <a class="text-muted" href="http://www.linkedin.com/in/stijn-janssens-91220b210" target="_blank">

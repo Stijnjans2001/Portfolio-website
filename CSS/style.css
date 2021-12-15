@@ -220,6 +220,12 @@
         display: block;
     }
     
+    .spacer {
+        width: max-content;
+        background-color: var(--kleur2);
+        padding-top: 100%;
+    }
+    
     @media (max-width: 370px) {
         .table.table-wrapper {
             max-height: 200px;
